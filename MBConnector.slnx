@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MBConnector.Api/MBConnector.Api.csproj" />
+    <Project Path="src/MBConnector.Data/MBConnector.Data.csproj" />
+    <Project Path="src/MBConnector.Domain/MBConnector.Domain.csproj" />
+    <Project Path="src/MBConnector.Infra/MBConnector.Infra.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MBConnector.Tests/MBConnector.Tests.csproj" Id="e83b5f36-0f96-425b-94bc-88b49d717b8a" />
+  </Folder>
+</Solution>
