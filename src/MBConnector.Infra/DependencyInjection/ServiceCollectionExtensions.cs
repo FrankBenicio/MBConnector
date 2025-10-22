@@ -10,7 +10,7 @@ namespace MBConnector.Infra.DependencyInjection
     {
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
-            services.Configure<MbOptions>(configuration.GetSection("MercadoBitcoin"));
+            services.Configure<MbOptions>(configuration.GetSection("MbOptions"));
 
             services.AddTransient<ITokenProvider, TokenProvider>();
             services.AddTransient<IMercadoBitcoinAuthService, MercadoBitcoinAuthService>();
