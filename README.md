@@ -199,16 +199,4 @@ dotnet run --project MB.Integration.Api
 dotnet test --logger "console;verbosity=detailed"
 ```
 
----
 
-## Futuras Evoluções
-
-- Adicionar camada **Domain** com regras de negócio (Position, ValueObjects etc.)
-- Implementar **retry automático** no `MercadoBitcoinApiService` em caso de `401 Unauthorized`
-- Adicionar **cache distribuído (Redis)** para ambientes em cluster
-- Implementar **metrics/log tracing** com OpenTelemetry
-
----
-
-## Licença
-MIT — livre para uso, estudo e extensão.
